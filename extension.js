@@ -1,7 +1,7 @@
 ({
     name: "Senses IoT", // Category Name
     description: "Industrial Internet of Things platform (IIoT)Laser PM2.5 Sensor",
-    author: "IOXhop.com",
+    author: "microBlock",
     category: "Communication",
     version: "1.0.0",
     icon: "/static/icon.png", // Category icon
