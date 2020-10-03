@@ -61,7 +61,7 @@ Blockly.defineBlocksWithJsonArray([
   "helpUrl": "https://www.sensesiot.com/"
 },
 {
-  "type": "senses_send",
+  "type": "senses_get",
   "message0": "Senses IoT get digital control port: %1",
   "args0": [
     {

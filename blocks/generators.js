@@ -20,7 +20,7 @@ Blockly.Python['senses_send'] = function(block) {
   return code;
 };
 
-Blockly.Python['senses_send'] = function(block) {
+Blockly.Python['senses_get'] = function(block) {
   Blockly.Python.definitions_['import_senses'] = 'import senses';
 
   var value_controlport = Blockly.Python.valueToCode(block, 'controlport', Blockly.Python.ORDER_ATOMIC);
