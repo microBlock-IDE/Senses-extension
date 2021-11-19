@@ -67,5 +67,8 @@
                 </shadow>
             `
         }
+    ],
+    chip: [
+        "ESP32" // Chip support
     ]
 });
