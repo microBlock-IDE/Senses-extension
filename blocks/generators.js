@@ -19,7 +19,7 @@ Blockly.Python['senses_timer'] = function(block) {
   var statements_callback = Blockly.Python.statementToCode(block, 'callback');
 
   var functionName = Blockly.Python.provideFunction_(
-    `timer${value_tick_sec}_cb`,
+    `timer_${block.id.replace(/\W/g, '')}_cb`,
     ['def ' + Blockly.Python.FUNCTION_NAME_PLACEHOLDER_ + '(topic, msg):',
     statements_callback]);
 
@@ -44,7 +44,7 @@ Blockly.Python['senses_on_received'] = function(block) {
   var statements_callback = Blockly.Python.statementToCode(block, 'callback');
 
   var functionName = Blockly.Python.provideFunction_(
-    `slot${value_slot}_cb`,
+    `slot${value_slot}_${block.id.replace(/\W/g, '')}_cb`,
     ['def ' + Blockly.Python.FUNCTION_NAME_PLACEHOLDER_ + '(topic, msg):',
     statements_callback]);
 
