@@ -6,13 +6,13 @@ Blockly.Python['senses_config'] = function(block) {
   var value_uid = Blockly.Python.valueToCode(block, 'uid', Blockly.Python.ORDER_ATOMIC);
   var value_key = Blockly.Python.valueToCode(block, 'key', Blockly.Python.ORDER_ATOMIC);
 
-  var code = `senses.connect(${value_ssid}, ${value_passw}, ${value_uid}, ${value_key})\n`;
+  var code = `senses.connect(${value_ssid}, ${value_passw || "None"}, ${value_uid}, ${value_key})\n`;
   return code;
 };
 
 Blockly.Python['senses_timer'] = function(block) {
   console.log(block);
-  
+
   Blockly.Python.definitions_['import_senses'] = 'import senses';
 
   var value_tick_sec = Blockly.Python.valueToCode(block, 'tick_sec', Blockly.Python.ORDER_ATOMIC);
@@ -70,5 +70,5 @@ Blockly.Python['senses_run'] = function(block) {
   Blockly.Python.definitions_['import_senses'] = 'import senses';
 
   var code = `senses.run()`;
-  return [code, Blockly.Python.ORDER_NONE];
+  return code;
 };
