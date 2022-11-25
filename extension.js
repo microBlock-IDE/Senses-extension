@@ -71,9 +71,9 @@
         "senses_run",
         {
             xml: `
-                <shadow type="text">
+                <block type="text">
                     <field name="TEXT">--WiFi-Password--</field>
-                </shadow>
+                </block>
             `
         }
     ],
