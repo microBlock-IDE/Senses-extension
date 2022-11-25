@@ -1,6 +1,6 @@
 Blockly.defineBlocksWithJsonArray([
 {
-  "type": "senses_iot_config",
+  "type": "senses_config",
   "message0": "Senses IoT config %1 WiFi Name: %2 WiFi Password: %3 UID: %4 Device Key: %5",
   "args0": [
     {
