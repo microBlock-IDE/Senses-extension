@@ -3,7 +3,7 @@
     description: "Industrial Internet of Things platform (IIoT)",
     author: "microBlock",
     category: "Communication",
-    version: "2.0.0",
+    version: "2.1.0",
     icon: "/static/icon.png", // Category icon
     color: "#3498DB", // Category color (recommend some blocks color)
     blocks: [ // Blocks in Category
