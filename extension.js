@@ -78,6 +78,7 @@
         }
     ],
     chip: [
-        "ESP32" // Chip support
+        "ESP32", // Chip support
+        "RP2-WiFi"
     ]
 });
